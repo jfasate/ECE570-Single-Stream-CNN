@@ -20,7 +20,7 @@ Before starting the code implementation, please set up a `conda` environment for
 
 2. **Create and Activate Conda Environment**:
    ```bash
-   conda create -n cnn_env python=3.x
+   conda create -n cnn_env
    conda activate cnn_env
 
 ## Usage
