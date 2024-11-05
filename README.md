@@ -12,6 +12,17 @@ Find paper at: [[IEEE Xplore]](https://ieeexplore.ieee.org/document/9761218)  [[
 <img src="fig/method.png" width="60%">
 </div>
 
+## Environment Setup
+Before starting the code implementation, please set up a `conda` environment for package management. This ensures all dependencies are isolated and easily manageable.
+
+1. **Install Conda**:
+   Make sure you have [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed.
+
+2. **Create and Activate Conda Environment**:
+   ```bash
+   conda create -n cnn_env python=3.x
+   conda activate cnn_env
+
 ## Usage
 - Requirements: python3, pytorch, gdal, sklearn. 
 - Simply run 
