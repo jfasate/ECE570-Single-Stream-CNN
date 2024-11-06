@@ -11,8 +11,16 @@ Before starting the code implementation, please set up a `conda` environment for
    conda create -n cnn_env
    conda activate cnn_env
 
-## Usage
-- Requirements: python3, pytorch, gdal, sklearn. 
+## Requirement
+- python3
+- pytorch
+- CUDA
+- cuDNN
+- torchvision
+- gdal
+- sklearn (scipy, numpy)
+
+## Run
 - Simply run 
 ```
 python3 main.py
