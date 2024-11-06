@@ -1,17 +1,5 @@
 # CNNs for Multi-Source Remote Sensing Data Fusion
 
-## Description
-
-Implementation of the paper "Single-stream CNN with Learnable Architecture for Multi-source Remote Sensing Data". 
-
-Multi-stream CNNs are commonly used in multi-source remote sensing data fusion. In this work author propose an efficient strategy that enables single-stream CNNs to approximate multi-stream models using group convolution. The proposed method is applied to ResNet and UNet, and evaluated on Houston2018, Berlin, MUUFL data sets, obtaining promising results. An interesting finding is that _regularization_ is playing an important role in these models. 
-
-Find paper at: [[IEEE Xplore]](https://ieeexplore.ieee.org/document/9761218)  [[arxiv]](http://arxiv.org/abs/2109.06094)
-
-<div align="center">
-<img src="fig/method.png" width="60%">
-</div>
-
 ## Environment Setup
 Before starting the code implementation, please set up a `conda` environment for package management. This ensures all dependencies are isolated and easily manageable.
 
