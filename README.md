@@ -21,6 +21,8 @@ Before starting the code implementation, please set up a `conda` environment for
 - sklearn (scipy, numpy)
 
 ## Data
+Download the below dataset from Google Drive and load it into place inside data folder that is ```/path/to/data```.
+
 Data files are available at [this Google Drive site](https://drive.google.com/drive/folders/1urY6Pjba3mStDcRphIfkNf50295aW2o2?usp=sharing), which can be directly used in this code. Please note that we used channel-wise normalization AFTER loading these files, and this step is already implemented in our code. 
 
 Below are links to the original data sets:
