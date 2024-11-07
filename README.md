@@ -20,15 +20,6 @@ Before starting the code implementation, please set up a `conda` environment for
 - gdal
 - sklearn (scipy, numpy)
 
-## Run
-- Simply run 
-```
-python3 main.py
-```
-- To customize training/model arguments, modify ```common.py```. Arguments are automatically loaded to ```main.py```.
-
-
-
 ## Data
 Data files are available at [this Google Drive site](https://drive.google.com/drive/folders/1urY6Pjba3mStDcRphIfkNf50295aW2o2?usp=sharing), which can be directly used in this code. Please note that we used channel-wise normalization AFTER loading these files, and this step is already implemented in our code. 
 
@@ -37,6 +28,16 @@ Below are links to the original data sets:
 [[Houston2018]](https://ieee-dataport.org/open-access/2018-ieee-grss-data-fusion-challenge-%E2%80%93-fusion-multispectral-lidar-and-hyperspectral-data) &nbsp;
 [[Berlin]](https://github.com/danfenghong/ISPRS_S2FL) &nbsp;
 [[MUUFL]](https://github.com/GatorSense/MUUFLGulfport/tree/master/MUUFLGulfportSceneLabels) &nbsp;
+
+## Run
+To load the training data, modify ```common.py```. Arguments are automatically loaded to ```main.py```
+
+1) Open ```common.py```
+
+- Simply run 
+```
+python3 main.py
+```
 
 ## Results
 
