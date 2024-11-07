@@ -30,7 +30,7 @@ Below are links to the original data sets:
 [[MUUFL]](https://github.com/GatorSense/MUUFLGulfport/tree/master/MUUFLGulfportSceneLabels) &nbsp;
 
 ## Run
-To load the training data, modify ```common.py```. Arguments are automatically loaded to ```main.py```
+To load the training data and save the results, modify ```common.py```. Arguments are automatically loaded to ```main.py```
 
 1) Open ```common.py```
 2) Manually create a folder named train_model in your project directory to store model checkpoints during training.
