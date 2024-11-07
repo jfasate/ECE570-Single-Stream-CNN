@@ -12,13 +12,14 @@ Before starting the code implementation, please set up a `conda` environment for
    conda activate cnn_env
 
 ## Requirement
-- python3
-- pytorch
-- CUDA
-- cuDNN
-- torchvision
-- gdal
-- sklearn (scipy, numpy)
+Please install everything mention below inside the conda env. I have also mention the version that I have used while implementation.
+- python3 (3.8.20)
+- pytorch (2.4.1)
+- CUDA (12.4)
+- cuDNN (12.4)
+- torchvision (0.20.0)
+- gdal 
+- sklearn (0.23.1)
 
 ## Data
 Download the below dataset from Google Drive and load it into place inside data folder that is ```/path/to/data```.
