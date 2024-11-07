@@ -16,7 +16,7 @@ Please install everything mention below inside the conda env. I have also mentio
 - python3 (3.8.20)
 - pytorch (2.4.1)
 - CUDA (12.4)
-- cuDNN (12.4)
+- cuDNN (7.6.5)
 - torchvision (0.20.0)
 - gdal 
 - sklearn (0.23.1)
