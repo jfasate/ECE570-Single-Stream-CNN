@@ -33,6 +33,10 @@ Below are links to the original data sets:
 To load the training data, modify ```common.py```. Arguments are automatically loaded to ```main.py```
 
 1) Open ```common.py```
+2) Manually create a folder named train_model in your project directory to store model checkpoints during training.
+3) In the Config class of common.py, set ```save_ckpt_dir = 'path/to/train_model'```
+4) In the Config class of common.py, set ```result_out_dir = 'path/to/results'```
+5) In the Config class of common.py, set ```data_dir = 'path/to/data'```
 
 - Simply run 
 ```
