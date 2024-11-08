@@ -21,6 +21,8 @@ Please install everything mention below inside the conda env. I have also mentio
 - gdal 
 - sklearn (0.23.1)
 
+To see all the requirement please go through ```requirements.txt```
+
 ## Data
 Download the below dataset from Google Drive and load it into place inside data folder that is ```/path/to/data```.
 
